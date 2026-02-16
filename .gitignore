@@ -5,6 +5,7 @@ __pycache__/
 
 .pytest_cache/
 .mypy_cache/
+.ruff_cache/
 
 .venv/
 venv/
@@ -14,3 +15,13 @@ build/
 dist/
 *.egg-info/
 
+.env
+.env.*
+!.env.example
+
+.coverage
+.coverage.*
+htmlcov/
+
+.DS_Store
+Thumbs.db
