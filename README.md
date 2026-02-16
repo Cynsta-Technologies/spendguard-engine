@@ -10,3 +10,7 @@ Contains:
 
 Wrapper services (`spendguard-sidecar`, `spendguard-cloud`) should own pricing-source fetching,
 auth, storage, and commercial concerns.
+
+## License
+
+MIT. See `LICENSE`.

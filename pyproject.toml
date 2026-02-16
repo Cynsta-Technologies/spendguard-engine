@@ -7,10 +7,14 @@ name = "spendguard-engine"
 version = "0.1.0"
 description = "Shared SpendGuard engine for provider adapters, pricing primitives, and billing math"
 readme = "README.md"
+license = {text = "MIT"}
 requires-python = ">=3.10"
 dependencies = [
   "openai>=1.0.0",
   "pydantic>=2.0.0",
+]
+classifiers = [
+  "License :: OSI Approved :: MIT License",
 ]
 
 [tool.setuptools]
