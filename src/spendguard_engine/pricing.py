@@ -62,6 +62,12 @@ DEFAULT_RATES: dict[str, dict[str, RateCard]] = {
         "claude-3-5-sonnet-latest": RateCard(input_cents_per_1m=400, output_cents_per_1m=2000),
         "claude-3-5-haiku-latest": RateCard(input_cents_per_1m=100, output_cents_per_1m=500),
     },
+    "grok": {
+        # xAI Grok model card defaults (OpenAI-compatible API), overrideable via cloud pricing.
+        "grok-3": RateCard(input_cents_per_1m=300, output_cents_per_1m=1500, cached_input_cents_per_1m=75),
+        "grok-3-latest": RateCard(input_cents_per_1m=300, output_cents_per_1m=1500, cached_input_cents_per_1m=75),
+        "grok-3-fast-latest": RateCard(input_cents_per_1m=300, output_cents_per_1m=1500, cached_input_cents_per_1m=75),
+    },
 }
 
 
